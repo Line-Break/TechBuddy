@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2326A89E1AC8C7DA0021B277 /* FrontPage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2326A89D1AC8C7DA0021B277 /* FrontPage.xcassets */; };
+		2326A8A01AC8D2F30021B277 /* ProfileCreation.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2326A89F1AC8D2F30021B277 /* ProfileCreation.xcassets */; };
+		2326A8A21AC8D6BB0021B277 /* MainFeed.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2326A8A11AC8D6BB0021B277 /* MainFeed.xcassets */; };
 		23C468C21AC3C18000FBA5D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C468C11AC3C18000FBA5D4 /* AppDelegate.swift */; };
 		23C468C51AC3C18000FBA5D4 /* TechBuddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23C468C31AC3C18000FBA5D4 /* TechBuddy.xcdatamodeld */; };
 		23C468C71AC3C18000FBA5D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C468C61AC3C18000FBA5D4 /* ViewController.swift */; };
@@ -14,6 +17,7 @@
 		23C468CC1AC3C18000FBA5D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23C468CB1AC3C18000FBA5D4 /* Images.xcassets */; };
 		23C468CF1AC3C18000FBA5D4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23C468CD1AC3C18000FBA5D4 /* LaunchScreen.xib */; };
 		23C468DB1AC3C18000FBA5D4 /* TechBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C468DA1AC3C18000FBA5D4 /* TechBuddyTests.swift */; };
+		32B11743FA89AB5D09A47EB2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 837046EE05ED2C242E2E9F38 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2326A89D1AC8C7DA0021B277 /* FrontPage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FrontPage.xcassets; sourceTree = "<group>"; };
+		2326A89F1AC8D2F30021B277 /* ProfileCreation.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ProfileCreation.xcassets; sourceTree = "<group>"; };
+		2326A8A11AC8D6BB0021B277 /* MainFeed.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MainFeed.xcassets; sourceTree = "<group>"; };
 		23C468BC1AC3C18000FBA5D4 /* TechBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23C468C01AC3C18000FBA5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23C468C11AC3C18000FBA5D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +45,9 @@
 		23C468D41AC3C18000FBA5D4 /* TechBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23C468D91AC3C18000FBA5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23C468DA1AC3C18000FBA5D4 /* TechBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechBuddyTests.swift; sourceTree = "<group>"; };
+		837046EE05ED2C242E2E9F38 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7ABD9493DCEF4D3B3551A61 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FB6B2B0D435B71F9D3A039A7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B11743FA89AB5D09A47EB2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +75,8 @@
 				23C468BE1AC3C18000FBA5D4 /* TechBuddy */,
 				23C468D71AC3C18000FBA5D4 /* TechBuddyTests */,
 				23C468BD1AC3C18000FBA5D4 /* Products */,
+				71070CB84C141764C4CB993A /* Pods */,
+				D2ED03EDDE405F9623EFD059 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,7 +95,10 @@
 				23C468C11AC3C18000FBA5D4 /* AppDelegate.swift */,
 				23C468C61AC3C18000FBA5D4 /* ViewController.swift */,
 				23C468C81AC3C18000FBA5D4 /* Main.storyboard */,
+				2326A89D1AC8C7DA0021B277 /* FrontPage.xcassets */,
 				23C468CB1AC3C18000FBA5D4 /* Images.xcassets */,
+				2326A8A11AC8D6BB0021B277 /* MainFeed.xcassets */,
+				2326A89F1AC8D2F30021B277 /* ProfileCreation.xcassets */,
 				23C468CD1AC3C18000FBA5D4 /* LaunchScreen.xib */,
 				23C468C31AC3C18000FBA5D4 /* TechBuddy.xcdatamodeld */,
 				23C468BF1AC3C18000FBA5D4 /* Supporting Files */,
@@ -115,6 +131,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		71070CB84C141764C4CB993A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7ABD9493DCEF4D3B3551A61 /* Pods.debug.xcconfig */,
+				FB6B2B0D435B71F9D3A039A7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2ED03EDDE405F9623EFD059 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				837046EE05ED2C242E2E9F38 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23C468DE1AC3C18000FBA5D4 /* Build configuration list for PBXNativeTarget "TechBuddy" */;
 			buildPhases = (
+				F0CFCA784F9D924A797F8016 /* Check Pods Manifest.lock */,
 				23C468B81AC3C18000FBA5D4 /* Sources */,
 				23C468B91AC3C18000FBA5D4 /* Frameworks */,
 				23C468BA1AC3C18000FBA5D4 /* Resources */,
+				1DDDC648788B5B56B79B0520 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,9 +230,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2326A89E1AC8C7DA0021B277 /* FrontPage.xcassets in Resources */,
 				23C468CA1AC3C18000FBA5D4 /* Main.storyboard in Resources */,
 				23C468CF1AC3C18000FBA5D4 /* LaunchScreen.xib in Resources */,
 				23C468CC1AC3C18000FBA5D4 /* Images.xcassets in Resources */,
+				2326A8A21AC8D6BB0021B277 /* MainFeed.xcassets in Resources */,
+				2326A8A01AC8D2F30021B277 /* ProfileCreation.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +247,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DDDC648788B5B56B79B0520 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0CFCA784F9D924A797F8016 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		23C468B81AC3C18000FBA5D4 /* Sources */ = {
@@ -340,6 +411,7 @@
 		};
 		23C468DF1AC3C18000FBA5D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7ABD9493DCEF4D3B3551A61 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TechBuddy/Info.plist;
@@ -350,6 +422,7 @@
 		};
 		23C468E01AC3C18000FBA5D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB6B2B0D435B71F9D3A039A7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TechBuddy/Info.plist;
@@ -411,6 +484,7 @@
 				23C468E01AC3C18000FBA5D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23C468E11AC3C18000FBA5D4 /* Build configuration list for PBXNativeTarget "TechBuddyTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +493,7 @@
 				23C468E31AC3C18000FBA5D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
