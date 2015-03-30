@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230070A11AC8E6360023D4DC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230070A01AC8E6360023D4DC /* Post.swift */; };
+		230070A41AC8E8D50023D4DC /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230070A31AC8E8D50023D4DC /* PostCollectionViewCell.swift */; };
+		230070A61AC8F08C0023D4DC /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230070A51AC8F08C0023D4DC /* PostTableViewCell.swift */; };
 		2326A89E1AC8C7DA0021B277 /* FrontPage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2326A89D1AC8C7DA0021B277 /* FrontPage.xcassets */; };
 		2326A8A01AC8D2F30021B277 /* ProfileCreation.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2326A89F1AC8D2F30021B277 /* ProfileCreation.xcassets */; };
 		2326A8A21AC8D6BB0021B277 /* MainFeed.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2326A8A11AC8D6BB0021B277 /* MainFeed.xcassets */; };
+		2326A8A41AC8DC6D0021B277 /* MainFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2326A8A31AC8DC6D0021B277 /* MainFeedViewController.swift */; };
 		23C468C21AC3C18000FBA5D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C468C11AC3C18000FBA5D4 /* AppDelegate.swift */; };
 		23C468C51AC3C18000FBA5D4 /* TechBuddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23C468C31AC3C18000FBA5D4 /* TechBuddy.xcdatamodeld */; };
 		23C468C71AC3C18000FBA5D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C468C61AC3C18000FBA5D4 /* ViewController.swift */; };
@@ -31,9 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		230070A01AC8E6360023D4DC /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		230070A31AC8E8D50023D4DC /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
+		230070A51AC8F08C0023D4DC /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		2326A89D1AC8C7DA0021B277 /* FrontPage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FrontPage.xcassets; sourceTree = "<group>"; };
 		2326A89F1AC8D2F30021B277 /* ProfileCreation.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ProfileCreation.xcassets; sourceTree = "<group>"; };
 		2326A8A11AC8D6BB0021B277 /* MainFeed.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MainFeed.xcassets; sourceTree = "<group>"; };
+		2326A8A31AC8DC6D0021B277 /* MainFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFeedViewController.swift; sourceTree = "<group>"; };
 		23C468BC1AC3C18000FBA5D4 /* TechBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23C468C01AC3C18000FBA5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23C468C11AC3C18000FBA5D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +77,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2300709F1AC8E6100023D4DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				230070A01AC8E6360023D4DC /* Post.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		230070A21AC8E89F0023D4DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				230070A31AC8E8D50023D4DC /* PostCollectionViewCell.swift */,
+				230070A51AC8F08C0023D4DC /* PostTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		23C468B31AC3C18000FBA5D4 = {
 			isa = PBXGroup;
 			children = (
@@ -92,7 +117,10 @@
 		23C468BE1AC3C18000FBA5D4 /* TechBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				230070A21AC8E89F0023D4DC /* Views */,
+				2300709F1AC8E6100023D4DC /* Models */,
 				23C468C11AC3C18000FBA5D4 /* AppDelegate.swift */,
+				2326A8A31AC8DC6D0021B277 /* MainFeedViewController.swift */,
 				23C468C61AC3C18000FBA5D4 /* ViewController.swift */,
 				23C468C81AC3C18000FBA5D4 /* Main.storyboard */,
 				2326A89D1AC8C7DA0021B277 /* FrontPage.xcassets */,
@@ -286,9 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				230070A61AC8F08C0023D4DC /* PostTableViewCell.swift in Sources */,
 				23C468C71AC3C18000FBA5D4 /* ViewController.swift in Sources */,
 				23C468C51AC3C18000FBA5D4 /* TechBuddy.xcdatamodeld in Sources */,
+				230070A41AC8E8D50023D4DC /* PostCollectionViewCell.swift in Sources */,
 				23C468C21AC3C18000FBA5D4 /* AppDelegate.swift in Sources */,
+				2326A8A41AC8DC6D0021B277 /* MainFeedViewController.swift in Sources */,
+				230070A11AC8E6360023D4DC /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
